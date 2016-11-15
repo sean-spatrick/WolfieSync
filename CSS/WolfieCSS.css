@@ -1,9 +1,9 @@
 #wrapper {
 position: absolute;
-    top: 75px;
   width: 100%;
-  margin: 0 auto; 
+
 }
+
 .button {
     background-color : #F55E5D;
     text-decoration : none;
@@ -16,11 +16,10 @@ position: absolute;
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 1.5%;
     display: inline-block;
     cursor: pointer;
-    
     float: right;
-    
     margin-right: 3%;
     
 }
@@ -55,7 +54,7 @@ header h1#logo{
     transition: all 0.3s; 
 } 
 div.header.smaller {
-    height: 75px; }
+    height: 4%; }
     div.header.smaller h1#logo {
       width: 150px;
       height: 75px;
@@ -85,7 +84,7 @@ header nav a:hover {
     color: white;
 }
 header.smaller {
-    height: 75px;
+    height: 10%;
 }
 header.smaller h1#logo {
     width: 150px;
@@ -117,7 +116,7 @@ header.smaller nav a {
         margin: 0 10px;
     }
     header.smaller {
-        height: 75px;
+        height: 75%;
     }
     header.smaller h1#logo {
         height: 40px;
@@ -141,8 +140,8 @@ div.carousel {
 }
 
 div.my-slider {
-    top:10px;
-    background-color: white;
+    margin-top: 8%;
+    background-color: #a4b1b1;
 }
 img.slide {
     width: 100%;
@@ -161,7 +160,7 @@ img.slide {
     before
 }
 #featured {
-    background-color: lightgrey;
+    background-color: #a4b1b1;
     float: left;
     height: 150%;
     width: 100%
@@ -173,8 +172,8 @@ footer {
     width: 100%
 }
 img.logo{
-    width: 100%;
-    margin-top: 0.5%;
+    width: 60%;
+    margin-top: 2%;
     margin-left: 1%;
      
 }
@@ -191,6 +190,38 @@ img.FPro {
     margin-top: 2%;
 }
 
+#footA {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footB {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+}
+
+#FTop {
+    width: 100%;
+    background-color: #F55E5D;
+}
+
+.head {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+}
+
+.bulk {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
 /*error page css*/
 #ref{
     text-decoration: none;
@@ -200,4 +231,9 @@ img.FPro {
 #messageDiv{
     position: fixed;
     top: 45%
+}
+
+#aboutDiv {
+    padding-top: 5%; 
+    background-color: #a4b1b1;
 }
