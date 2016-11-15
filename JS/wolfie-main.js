@@ -35,9 +35,9 @@ function init() {
   //  }
 //}
 
-//function expandCard(){
+function expandCard(){
     document.getElementById("FPro").style.width = "100%";
 }
-//function condenseCard(){
+function condenseCard(){
     document.getElementById("FPro").style.width = "0%";
 }
