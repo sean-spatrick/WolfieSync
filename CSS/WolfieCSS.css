@@ -190,3 +190,14 @@ img.FPro {
     font-size: 220%;
     margin-top: 2%;
 }
+
+/*error page css*/
+#ref{
+    text-decoration: none;
+  font-family: 'Raleway', sans-serif;  
+    color: white;
+}
+#messageDiv{
+    position: fixed;
+    top: 45%
+}
